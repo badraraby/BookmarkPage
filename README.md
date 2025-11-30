@@ -1,77 +1,65 @@
-<h1 align="center">💦 BPB Panel</h1>
+# OnePage - A Personal Bookmark Homepage
+<div align="center">
+![OnePage](https://img.shields.io/badge/OnePage-v1.0-blue)
+![React](https://img.shields.io/badge/React-18-61dafb)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-### 🌏 Readme in [Farsi](README_fa.md)
+A clean and elegant personal bookmark homepage with support for categories, drag-and-drop sorting, bulk operations, and more.
 
-<p align="center">
-  <img src="docs/assets/images/Panel.jpg">
-</p>
-<br>
-
-## Introduction
-This project is dedicated to developing a user panel for the [Cloudflare-workers/pages proxy script](https://github.com/yonggekkk/Cloudflare-workers-pages-vless) created by [yonggekkk](https://github.com/yonggekkk). The panel offers two deployment options: 
-- **Worker** deployment
-- **Pages** deployment
-<br>
-
-🌟 If you found **BPB Panel Self** valuable, Your donations make all the difference 🌟
-- **USDT (BEP20):** `0x111EFF917E7cf4b0BfC99Edffd8F1AbC2b23d158`
-
-## Features
-
-1. **Free**: No cost involved.
-2. **User-Friendly Panel:** Designed for easy navigation, configuration and usage.
-3. **Protocols:** Provides VLESS, Trojan and Wireguard (Warp) protocols.
-4. **Warp Pro configs:** Optimized Warp for crucial circumstances.
-5. **Support Fragment:** Supports Fragment functionality for crucial network situations.
-6. **Full routing rules:** Bypassing Iran/China/Russia and LAN, Blocking QUIC, Porn, Ads, Malwares, Phishing...
-7. **Chain Proxy:** Capable of adding a chain proxy to fix IP.
-8. **Supports Wide Range of Clients:** Offers subscription links for Xray, Sing-box and Clash core clients.
-9. **Password-Protected Panel:** Secure your panel with password protection.
-10. **Fully customizable:** Ability to use online scanner and setting up clean IP-domains, Proxy IP, setting DNS servers, choosing ports and protocols, Warp endpoints...
-<br>
-
-## How to use:
-- [Installation (Pages - New recommended method)](docs/pages_upload_installation_fa.md)
-
-- [Installation (Pages)](docs/pages_installation_fa.md)
-
-- [Installation (Worker)](docs/worker_installation_fa.md)
-
-- [How to use](docs/configuration_fa.md)
-
-- [FAQ](docs/faq.md)
-<br>
-
-## Supported Clients
-| Client  | Version | Fragment | Warp Pro |
-| :-------------: | :-------------: | :-------------: | :-------------: |
-| **v2rayNG**  | 1.8.19 or higher  | :heavy_check_mark: | :x: |
-| **v2rayN**  | 6.42 or higher  | :heavy_check_mark: | :x: |
-| **v2rayN-PRO**  | 1.4 or higher  | :heavy_check_mark: | :heavy_check_mark: |
-| **Nekobox**  |   | :x: | :x: |
-| **Sing-box**  | 1.10.1 or higher  | :x: | :x: |
-| **Streisand**  |   | :heavy_check_mark: | :x: |
-| **V2Box**  |   | :x: | :x: |
-| **Shadowrocket**  |   | :x: | :x: |
-| **Nekoray**  |   | :heavy_check_mark: | :x: |
-| **Hiddify**  | 2.0.5 or higher  | :x: | :heavy_check_mark: |
-| **NikaNG**  |   | :heavy_check_mark: | :heavy_check_mark: |
-| **Clash Meta**  |   | :x: | :x: |
-| **Clash Verge Rev**  |   | :x: | :x: |
-| **FLClash**  |   | :x: | :x: |
-
+[Live Demo](https://tabel.vxv.xx.kg) | [Quick Start](#quick-start) | [Features](#-features)
+</div>
 
 ---
 
-## Stargazers Over Time
-[![Stargazers Over Time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
+## ✨ Features
+
+### 🔐 Access Control
+- **Dual Access Modes**: Visitor Mode (Read-only) + Admin Mode (Full Control)
+- **Password Protection**: Administrative functions require login.
+- **Session Persistence**: Login state is automatically saved.
+
+### 📚 Bookmark Management
+- **Add/Edit/Delete**: Full CRUD operations for bookmarks.
+- **Auto Favicon**: Automatically fetches website favicons.
+- **Custom Icons**: Supports using custom icon URLs.
+- **URL Validation**: Intelligently recognizes and validates URLs.
+
+### 🏷️ Category System
+- **Dynamic Categories**: Freely create and delete categories.
+- **Drag-to-Categorize**: Quickly change a bookmark's category by dragging it onto a category tag.
+- **Smart Filtering**: Filter bookmarks by category.
+- **Bulk Operations**: Supports batch modification of categories and deletion.
+
+### 🎨 UI Design
+- **Modern UI**: Features gradient backgrounds and a glassmorphism effect.
+- **Responsive Layout**: Perfectly adapts to desktop, tablet, and mobile devices.
+- **Customizable Theme**: Includes dark mode and support for custom background images.
+- **Smooth Animations**: Fluid transitions and hover effects.
+
+### 🔄 Import / Export
+- **JSON Export**: Export all bookmark data.
+- **JSON Import**: Bulk import bookmarks with automatic deduplication.
+- **HTML Import**: Supports importing bookmark files exported from browsers.
+- **Smart Deduplication**: Automatically identifies and skips duplicate bookmarks.
+
+### 🔍 Search Function
+- **Multi-engine Support**: Google, Bing, Baidu, DuckDuckGo.
+- **Quick Search**: Press Enter to search.
+- **Search Hint**: Displays the current search engine in real-time.
+
+### ⚡ Other Features
+- **Drag-and-Drop Sorting**: Freely rearrange bookmarks (login required).
+- **Multi-select**: Supports selecting and operating on multiple items at once.
+- **Instant Save**: All changes are saved automatically.
+- **User-friendly Notifications**: Provides clear success/error messages.
 
 ---
 
-### Special Thanks
-- CF-vless code author [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)
-- CF preferred IP program author [badafans](https://github.com/badafans/Cloudflare-IP-SpeedTest), [XIU2](https://github.com/XIU2/CloudflareSpeedTest)
+## 🚀 Quick Start
 
----
-
-For a detailed tutorial on the core script, please refer to [Yongge’s blog and video tutorials](https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html).
+### Method 1: Direct Usage (Recommended)
+1.  **Download the files**
+    ```bash
+    git clone https://github.com/lvqopl/onepage.git
+    cd onepage
+    ```
