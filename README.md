@@ -1,4 +1,4 @@
-# OnePage - A Personal Bookmark Homepage
+# BookmarkPage - A Personal Bookmark Homepage
 <div align="center">
 ![OnePage](https://img.shields.io/badge/OnePage-v1.0-blue)
 ![React](https://img.shields.io/badge/React-18-61dafb)
